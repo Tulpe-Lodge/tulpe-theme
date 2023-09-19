@@ -191,7 +191,7 @@
 {% else %}
 	{% if page.banner_image %}
 		{% set escdiv = 'div' %}
-		<header class="masthead" style="background-image: url('{% autoescape 'div' %}{% spaceless %}{{- page.banner_image -}}{% endspaceless %}{% endautoescape %}')">
+		<header class="masthead" style="background-image: url('{% autoescape 'html' %}{% apply spaceless %}{{- page.banner_image -}}{% endapply %}{% endautoescape %}')">
 	{% else %}
 		<header class="masthead" style="background-image: url('/themes/tulpe_theme/img/tulpe-banner.jpg')">
 	{% endif %}

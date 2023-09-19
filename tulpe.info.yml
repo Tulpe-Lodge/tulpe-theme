@@ -1,26 +1,26 @@
 name: Tulpe
-description: Custom Drupal 8 theme for Tulpe Lodge
+description: Custom Drupal 10 theme for Tulpe Lodge
 type: theme
 base theme: false
 core: 8.x
-core_version_requirement: ^8 || ^9
+core_version_requirement: ^8 || ^9 || ^10
 
 libraries:
   - tulpe/global-styling-and-scripts
   - tulpe/js-header
 regions:
-  primary_menu: 'Primary menu'
-  secondary_menu: 'Secondary menu'
-  banner_image: 'Banner Image'
-  banner_text: 'Banner Text'
+  primary_menu: "Primary menu"
+  secondary_menu: "Secondary menu"
+  banner_image: "Banner Image"
+  banner_text: "Banner Text"
   header: Header
-  featured_icons: 'Featured Icons'
-  front_upcoming_events: 'Front Upcoming Events'
-  page_top: 'Page top'
-  content: 'Content'
-  page_bottom: 'Page bottom'
-  primary_sidebar: 'First sidebar'
-  secondary_sidebar: 'Secondary sidebar'
-  first_footer: 'First footer'
-  second_footer: 'Second footer'
-  third_footer: 'Third footer'
+  featured_icons: "Featured Icons"
+  front_upcoming_events: "Front Upcoming Events"
+  page_top: "Page top"
+  content: "Content"
+  page_bottom: "Page bottom"
+  primary_sidebar: "First sidebar"
+  secondary_sidebar: "Secondary sidebar"
+  first_footer: "First footer"
+  second_footer: "Second footer"
+  third_footer: "Third footer"
